@@ -13,11 +13,13 @@
     "react-ga": "^2.5.7",
     "react-scripts": "3.1.1",
     "react-use": "^7.0.1",
+    "serve": "^13.0.2",
     "styled-components": "^4.2.0",
     "webamp": "^1.3.2-beta.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=$PORT serve -s build",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
