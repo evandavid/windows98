@@ -1,0 +1,8 @@
+#root {
+  height: 100%;
+}
+
+button:focus {
+  outline: none !important;
+  outline-offset: 0 !important;
+}
